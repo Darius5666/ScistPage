@@ -1,0 +1,50 @@
+.box:hover{
+    background-color: rgb(174, 32, 32);
+}
+.root{
+    background-color: black;
+    margin: 0px;
+
+}
+.go{
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 13px 40px;
+    color:white;
+    background-color:rgb(255, 47, 47);
+    font-size: 40px;
+    border: None;
+}
+.container{
+    top: 0px;
+    position: sticky;
+    background-color: rgb(50, 97, 236);
+    display:flex;
+    padding: 13px auto;
+}
+.item{
+    align-items: center;
+    vertical-align:center;
+    cursor: pointer;
+    padding: 10px 15px;
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+.item:hover{
+    background-color: rgba(255, 255, 255, 0.508);
+}
+.content{
+    color:white;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.image{
+    width: 3%;
+    height: 3%;
+    margin :5px;
+    border-radius: 5px;
+}
